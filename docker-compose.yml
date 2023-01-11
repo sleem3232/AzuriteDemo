@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  azuritedemo:
+    image: ${DOCKER_REGISTRY-}azuritedemo
+    build:
+      context: .
+      dockerfile: AzuriteDemo/Dockerfile
+
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    environment:
+      - AZURITE_BLOB_HOST=http://127.0.0.1:10000/devstoreaccount1
+      - AZURITE_TABLE_HOST=http://127.0.0.1:10002/devstoreaccount1
+      - AZURITE_QUEUE_HOST=http://127.0.0.1:10001/devstoreaccount1
+    ports:
+      - "10000:10000"
+      - "10002:10002"
+      - "10001:10001"

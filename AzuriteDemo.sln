@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzuriteDemo", "AzuriteDemo\AzuriteDemo.csproj", "{BDA42516-7D3B-4215-BECD-C3341A6603D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzuriteDemo", "AzuriteDemo\AzuriteDemo.csproj", "{BDA42516-7D3B-4215-BECD-C3341A6603D7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{93BA31FF-9CFD-40B4-A2B2-3D34D0D394F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BDA42516-7D3B-4215-BECD-C3341A6603D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDA42516-7D3B-4215-BECD-C3341A6603D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDA42516-7D3B-4215-BECD-C3341A6603D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BA31FF-9CFD-40B4-A2B2-3D34D0D394F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BA31FF-9CFD-40B4-A2B2-3D34D0D394F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BA31FF-9CFD-40B4-A2B2-3D34D0D394F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BA31FF-9CFD-40B4-A2B2-3D34D0D394F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

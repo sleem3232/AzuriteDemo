@@ -22,7 +22,7 @@ namespace AzuriteDemo
                 
                 await Task.Delay(1000, stoppingToken);
 
-                CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=picturesblobstorage;AccountKey=yCk4Z5pshM/1FTn/PRoMLTveIa4NAX2EKju8pmsZccZALtcFZTGoQlrfZFoJureoAU0aXm1VP9Ah+AStO+23gw==;EndpointSuffix=core.windows.net;");
+                CloudStorageAccount storageAccount = CloudStorageAccount.Parse("");
 
                 // Create a blob client for interacting with the blob service.
                 CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
